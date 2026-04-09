@@ -135,6 +135,12 @@ INSERT INTO Products (Name)
 CREATE DATABASE ShopDBReserve; 
 USE ShopDBReserve;
 
+CREATE TABLE Products (
+    ID INT AUTO_INCREMENT,
+    Name VARCHAR(50),
+    PRIMARY KEY (ID)
+);
+
 CREATE DATABASE ShopDBDevelopment; 
 USE ShopDBDevelopment; 
 
